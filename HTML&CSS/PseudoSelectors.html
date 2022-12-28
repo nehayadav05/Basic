@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border:2px solid purple;
+            background-color: greenyellow;
+            padding: 33px;
+            margin: 33px auto;
+            width: 666px;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            a:hover{
+                color: rgb(227, 19, 19);
+                background-color: aqua;
+            }
+            a:visited{
+               background-color: ; color:orange;
+            }
+            a:active{
+                background-color: red;
+            }
+            .btn{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                background-color: rgb(249, 198, 148);
+                padding: 6px;
+                border: none;
+                cursor: pointer;
+                font-size: 13px;
+                border-radius: 4px;
+            }
+            .btn:hover{
+                color: brown;
+                background-color: blanchedalmond;
+                border: 2px solid black;
+            }
+    </style>
+</head>
+<body>
+     <div class="container" id="cont1">
+     <h3>This is my heading</h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni, saepe dicta exercitationem eaque quisquam autem voluptas voluptatum? Quaerat, quas eaque adipisci autem ea sit. Id molestiae recusandae sit sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, nisi? Voluptates quae, expedita odit atque ea fugit consequatur aperiam, ratione in pariatur magnam et! Sunt illum ipsam cupiditate provident et, nisi assumenda?</p>
+     <a href="https://www.google.com"class ="btn">Read more</a>
+     <button class="btn">Contact us</button>
+     </div>
+</body>
+</html>
